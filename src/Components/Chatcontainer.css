@@ -1,0 +1,198 @@
+.chat-container {
+  min-width: 348px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.chat-container-header {
+  display: flex;
+  align-items: center;
+  height: 50px;
+  padding: 5px 0px 5px 10px;
+  background-color: #ededed;
+  align-items: center;
+  justify-content: space-between;
+}
+/*#ededed*/
+.chat-user-info {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-transform: capitalize;
+}
+
+.chat-user-img {
+  width: 44px;
+  margin-right: 15px;
+  margin-left: 10px;
+}
+
+.chat-user-img > img {
+  width: 100%;
+  border-radius: 100%;
+}
+
+.chat-container-header-btn {
+  margin-right: 10px;
+  margin-left: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 15px;
+  color: #51585c;
+  cursor: pointer;
+
+}
+
+.chat-display-container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  background-color: #b5b5b5;
+  
+}
+/*#ece5dd*/
+.chat-input {
+  display: flex;
+  align-items: center;
+  padding: 12px;
+  background-color: #f0f0f0;
+  position: relative;
+  
+  
+}
+
+.otrodiv{
+  background-color: black;
+}
+
+.chat-input-btn {
+  margin-right: 13px;
+  margin-left: 13px;
+}
+.a{
+  background-color: gray;
+
+}
+.chat-input-btn > .MuiSvgIcon-root {
+  font-size: 26px;
+  color: gray;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.inputDoc1 {
+  position: relative;
+  margin: 1px;
+}
+.inputDoc2 {
+  position: relative;
+  display: inline-block;
+  margin: 1px; 
+}.inputDoc3 {
+  position: relative;
+  display: inline-block; 
+  margin: 1px;
+}.inputDoc4 {
+  position: relative;
+  display: inline-block; 
+  margin: 1px;
+}
+.inputDoc1::before{
+  background-color: gray;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 3px;
+  content: 'Archivos owo'; /* testo por defecto */
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+.inputDoc2::before{
+  background-color: gray;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 3px;
+  content: 'Fotos uwu';
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+.inputDoc3::before{
+  background-color: gray;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 3px;
+  content: 'Videos'; 
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+.inputDoc4::before{
+  background-color: gray;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 3px;
+  content: 'Audios'; 
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+#src-file1::before {
+  content: '';
+}
+.file-select input[type="file"] {
+  opacity: 0;
+  width: 100px;
+  height: 22px;
+  display: inline-block;
+}
+.chat-input > form {
+  flex: 1;
+}
+#src-file1::before {
+  content: 'Archivo';
+}
+.chat-input > form > input {
+  height: 70px;
+  border-radius: 15px;
+  border: none;
+  outline: none;
+  padding-left: 10px;
+  width: 90%;
+  margin-right: 10px;
+}
+
+.chat-input-send-btn {
+  background-color: #128c7e;
+  width: 35px;
+  height: 35px;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+
+}
+.chat-input-send-btn > .MuiSvgIcon-root {
+  font-size: 22px;
+}
